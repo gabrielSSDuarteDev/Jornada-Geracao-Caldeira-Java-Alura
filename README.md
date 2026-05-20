@@ -11,12 +11,12 @@ O objetivo deste espaço é centralizar toda a minha evolução técnica ao long
 * **Paradigma:** Orientação a Objetos (POO).
 
 ## 📅 Organização do Repositório
-O projeto está estruturado em pastas semanais seguindo estritamente o Planner de Estudos oficial do programa:
-* `semana-01-fundamentos/` (Lógica, Soft Skills e Git)
-* `semana-02-primeiros-passos-java/` (Primeira aplicação e introdução à POO)
-* `semana-03-dominio-tecnico/` (Listas, APIs e Arquitetura)
-* `semana-04-pratica-fluencia/` (Maratona de exercícios práticos)
-* `semana-05-mentalidade-agil/` (IA e metodologias de estudo)
+O projeto está estruturado em pastas semanais seguindo estritamente os módulos do Planner de Estudos oficial:
+* `semana-01-fundamentos-do-futuro-digital/` (Lógica, Soft Skills e Git)
+* `semana-02-primeiros-passos-na-programacao-java/` (Primeira aplicação e introdução à POO)
+* `semana-03-dominio-tecnico-e-construcao-de-solucoes/` (Listas, APIs e Arquitetura)
+* `semana-04-pratica-e-fluencia-em-java/` (Maratona de exercícios práticos)
+* `semana-05-mentalidade-agil-e-infraestrutura-web/` (IA e metodologias de estudo)
 
 ---
 *Vamo dale! ☕*
