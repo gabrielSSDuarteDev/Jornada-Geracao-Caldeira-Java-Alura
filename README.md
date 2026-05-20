@@ -18,5 +18,13 @@ O projeto está estruturado em pastas semanais seguindo estritamente os módulos
 * `semana-04-pratica-e-fluencia-em-java/` (Maratona de exercícios práticos)
 * `semana-05-mentalidade-agil-e-infraestrutura-web/` (IA e metodologias de estudo)
 
+## 📅 Planner de Estudos (Alura / Geração Caldeira)
+
+Podes acompanhar a estrutura visual e os prazos das nossas metas no gráfico abaixo:
+
+![Planner de Estudos](./assets/planner-progresso.png)
+
+💡 _Dica: Se preferires, também podes consultar o [Ficheiro PDF Original](./Planner%20de%20Estudos%20-%20Programação%20JAVA.pdf) diretamente na raiz deste repositório._
+
 ---
 *Vamo dale! ☕*
