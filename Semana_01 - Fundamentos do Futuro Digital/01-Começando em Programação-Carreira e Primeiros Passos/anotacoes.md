@@ -8,5 +8,8 @@
 * **Base (Horizontal):** Conhecimentos amplos em lógica, versionamento (Git/GitHub) e soft skills. É o foco total desta primeira semana.
 * **Especialidade (Vertical):** O aprofundamento técnico e domínio em uma tecnologia core. No meu caso, o ecossistema Java e a Orientação a Objetos (POO).
 
+## 🏅 Certificado de Conclusão
+<img src="../../assets/Certificados/Certificado-Comecando-em-programacao.png" alt="Certificado Conclusão" width="70%">
+
 ---
 _Curso concluído em 20/05/2026. Meta cumprida!_ ✅
