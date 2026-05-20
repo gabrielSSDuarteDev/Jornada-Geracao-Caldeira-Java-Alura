@@ -24,7 +24,5 @@ Podes acompanhar a estrutura visual e os prazos das nossas metas no gráfico aba
 
 ![Planner de Estudos](./assets/planner-progresso.png)
 
-💡 _Dica: Se preferires, também podes consultar o [Ficheiro PDF Original](./Planner%20de%20Estudos%20-%20Programação%20JAVA.pdf) diretamente na raiz deste repositório._
-
 ---
 *Vamo dale! ☕*
