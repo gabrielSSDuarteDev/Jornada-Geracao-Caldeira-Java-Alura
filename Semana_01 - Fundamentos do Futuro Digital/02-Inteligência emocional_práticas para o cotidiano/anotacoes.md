@@ -1,7 +1,7 @@
 # 🧠 Anotações: Inteligência Emocional: Práticas para o Cotidiano
 
 ## 🌐 Visão Ampla do Curso
-Este curso detalhou a mecânica por trás das nossas reações psicológicas e comportamentais[cite: 2]. A inteligência emocional (IE) foi abordada não como a repressão de sentimentos, mas como a capacidade de traduzir os sinais psicofisiológicos para responder aos desafios cotidianos e profissionais com resiliência, consciência e alta performance[cite: 2].
+Este curso detalhou a mecânica por trás das nossas reações psicológicas e comportamentais. A inteligência emocional (IE) foi abordada não como a repressão de sentimentos, mas como a capacidade de traduzir os sinais psicofisiológicos para responder aos desafios cotidianos e profissionais com resiliência, consciência e alta performance.
 
 ---
 
@@ -42,5 +42,5 @@ Este curso detalhou a mecânica por trás das nossas reações psicológicas e c
 <img src="../../assets/Certificados/Certificado%20IE.png" alt="Certificado Inteligência Emocional" width="70%">
 
 ---
-_Curso de 6 horas concluído com 52 atividades realizadas no período de 20/05/2026 a 24/05/2026_[cite: 2] ✅
-_Link de Autenticidade: [Validar na Alura](https://cursos.alura.com.br/certificate/adda6eb8-3d27-4322-9db0-7367dd4e4f6a)_[cite: 2]
+_Curso de 6 horas concluído com 52 atividades realizadas no período de 20/05/2026 a 24/05/2026_ ✅
+_Link de Autenticidade: [Validar na Alura](https://cursos.alura.com.br/certificate/adda6eb8-3d27-4322-9db0-7367dd4e4f6a)_
