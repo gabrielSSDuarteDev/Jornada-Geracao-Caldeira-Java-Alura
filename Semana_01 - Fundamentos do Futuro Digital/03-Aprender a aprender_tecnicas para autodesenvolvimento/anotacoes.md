@@ -8,7 +8,7 @@ O objetivo central deste curso foi transformar o aprendizado de um ato passivo e
 ## 📚 Conteúdo Programático por Módulos
 
 ### Módulo 1: Fundamentos do Autodesenvolvimento e Propósito
-* **Lifelong Learning (Aprendizado Contínuo):** Conceito difundido ao longo de todo o curso. Define que o aprendizado não termina com a formação acadêmica; é um processo constante e voluntário de busca por conhecimento ao longo da vida para adaptação mercadológica e evolução pessoal.
+* **Lifelong Learning (Aprendizado Contínuo):** Conceito primitivo difundido ao longo de todo o curso. Define que o aprendizado não termina com a formação acadêmica; é um processo constante e voluntário de busca por conhecimento ao longo da vida para adaptação mercadológica e evolução pessoal.
 * **Autoconhecimento:** A base de qualquer estudante de alto rendimento. Envolve mapear e compreender os próprios limites, horários de maior produtividade, ritmos de foco e reações diante de bloqueios cognitivos (como travar em um bug).
 * **Ikigai:** Framework japonês aplicado para encontrar a intersecção entre: o que você ama, o que você é bom em fazer, o que o mundo precisa e pelo que você pode ser pago. Alinhar o estudo de engenharia de software ao seu Ikigai gera a motivação intrínseca necessária para superar desafios técnicos pesados.
 
@@ -55,7 +55,7 @@ Esta matriz foi desenhada para gerenciar os **23 dias restantes** da Etapa 1 do 
 ---
 
 ## 🏅 Certificado de Conclusão
-<img src="../../assets\Certificados\Certificado_Aprender a Aprender" alt="Certificado Aprender a Aprender" width="70%">
+<img src="../../assets/Certificados/Certificado_Aprender%20a%20Aprender.png" alt="Certificado Aprender a Aprender" width="70%">
 
 ---
 _Curso concluído em 27/05/2026. Metodologia de estudo blindada, documentada e **plano de execução ativo**!_ 🚀
