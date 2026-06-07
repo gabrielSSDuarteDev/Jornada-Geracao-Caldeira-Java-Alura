@@ -93,4 +93,4 @@ Os computadores físicos operam seguindo um modelo de organização clássico co
 ---
 
 ## 🎓 Certificado de Conclusão
-<img src="C:\Users\gabri\Documents\Jornada Geracao Caldeira Java\assets\Certificados\Certficado_Pensmento_Computacional.jpg" alt="Certificado Pensamento Computacional - Alura" width="100%"/>
+<img src="../../assets/Certificados/Certficado_Pensmento_Computacional.png" alt="Certificado Pensamento Computacional - Alura" width="100%"/>
