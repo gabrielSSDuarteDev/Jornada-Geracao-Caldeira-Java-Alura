@@ -1,6 +1,4 @@
-Aqui está o conteúdo do arquivo `anotacoes.md` atualizado e expandido. Inseri a importância do repositório logo no início, os comandos de verificação de estado no fluxo diário, a técnica do `--amend` na seção de ajustes de histórico e dediquei uma seção exclusiva para a criação de arquivos `README.md`.
 
-```markdown
 # 🔀 Git e GitHub: Controle de Versão, Compartilhamento e Colaboração
 
 ## 🌐 1. Conceituação: Repositório Local vs. Repositório Remoto
