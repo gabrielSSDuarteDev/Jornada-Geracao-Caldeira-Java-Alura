@@ -138,5 +138,5 @@ public class ContaBancaria {
 ---
 
 ## 🎓 Certificado de Conclusão
-<img src="../../assets/Certificados/Certificado_Primeira Aplicacao Java.jpg" alt="Certificado Java: criando a sua primeira aplicação - Alura" width="100%"/>
+<img src="../../assets/Certificados/Certificado_Primeira Aplicacao Java.png" alt="Certificado Java: criando a sua primeira aplicação - Alura" width="100%"/>
 ```
