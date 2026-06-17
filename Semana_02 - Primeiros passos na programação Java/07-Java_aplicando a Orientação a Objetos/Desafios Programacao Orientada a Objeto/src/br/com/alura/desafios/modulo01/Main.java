@@ -1,16 +1,18 @@
+package br.com.alura.desafios.modulo01;
+
 public class Main {
     public static void main() {
-        //Classe Pessoa
+        //Classe br.com.alura.desafios.modulo01.Pessoa
         Pessoa pessoa = new Pessoa();
         pessoa.saudacao();
 
-        //Classe Aluno
+        //Classe br.com.alura.desafios.modulo01.Aluno
         Aluno aluno = new Aluno();
         aluno.nome = "Gabriel";
         aluno.idade = 19;
         aluno.exibeInformacoes();
 
-        //Classe Carro
+        //Classe br.com.alura.desafios.modulo01.Carro
         Carro car = new Carro();
         car.modelo = "Ford";
         car.ano = 2000;
@@ -25,7 +27,7 @@ public class Main {
         System.out.println(resultado);
 
 
-        //Musica
+        //br.com.alura.desafios.modulo01.Musica
         Musica minhaMusica = new Musica();
 
         minhaMusica.titulo = "Nome da Música";

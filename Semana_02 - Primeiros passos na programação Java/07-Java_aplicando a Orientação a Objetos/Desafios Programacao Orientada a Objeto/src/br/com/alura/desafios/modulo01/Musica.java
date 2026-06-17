@@ -1,22 +1,24 @@
+package br.com.alura.desafios.modulo01;
+
 public class Musica {
-    String titulo;
-    String artista;
-    int anoLancamento;
+    public String titulo;
+    public String artista;
+    public int anoLancamento;
     double somaDasAvaliacoes;
     int numAvaliacoes;
 
-    void exibeFichaTecnica() {
+    public void exibeFichaTecnica() {
         System.out.println("Título da música: " + titulo);
         System.out.println("Artista: " + artista);
         System.out.println("Ano de lançamento: " + anoLancamento);
     }
 
-    void avalia(double nota) {
+    public void avalia(double nota) {
         somaDasAvaliacoes += nota;
         numAvaliacoes++;
     }
 
-    double pegaMedia() {
+    public double pegaMedia() {
         return somaDasAvaliacoes / numAvaliacoes;
     }
 }

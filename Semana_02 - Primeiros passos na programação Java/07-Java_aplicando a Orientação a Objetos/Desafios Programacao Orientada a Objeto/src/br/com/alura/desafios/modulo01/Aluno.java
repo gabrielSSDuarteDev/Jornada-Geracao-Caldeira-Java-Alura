@@ -1,8 +1,10 @@
-public class Aluno {
-        String nome;
-        int idade;
+package br.com.alura.desafios.modulo01;
 
-        void exibeInformacoes() {
+public class Aluno {
+        public String nome;
+        public int idade;
+
+        public void exibeInformacoes() {
             System.out.println("Nome do aluno: " + nome);
             System.out.println("Idade do aluno: " + idade);
         }

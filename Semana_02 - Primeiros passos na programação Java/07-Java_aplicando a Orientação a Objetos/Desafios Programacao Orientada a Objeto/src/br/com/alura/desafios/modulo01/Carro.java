@@ -1,15 +1,17 @@
-public class Carro {
-    String modelo;
-    int ano;
-    String cor;
+package br.com.alura.desafios.modulo01;
 
-    void exibeFichaTecnica() {
+public class Carro {
+    public String modelo;
+    public int ano;
+    public String cor;
+
+    public void exibeFichaTecnica() {
         System.out.println("Modelo: " + modelo);
         System.out.println("Ano: " + ano);
         System.out.println("Cor: " + cor);
     }
 
-    int calculaIdade() {
+    public int calculaIdade() {
         return 2026 - ano;
     }
 }
