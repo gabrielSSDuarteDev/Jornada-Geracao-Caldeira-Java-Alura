@@ -4,6 +4,8 @@ import br.com.alura.desafios.modulo04.ex02.CalcularRetangulo;
 import br.com.alura.desafios.modulo04.ex03.TabuadaMultiplicacao;
 import br.com.alura.desafios.modulo04.ex04.ConversorAmbiente;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         ConversosMoeda conversor = new ConversosMoeda();
@@ -24,6 +26,7 @@ public class Main {
         temperaturaFahrenheit = 77;
         temperaturaCelsius = converter.fahrenheitParaCelsius(temperaturaFahrenheit);
         System.out.println(temperaturaFahrenheit + " Fahrenheit é igual a " + temperaturaCelsius + " Celsius.");
+
 
 
     }
