@@ -70,7 +70,7 @@ O foco absoluto deste módulo foi realizar a transição do modelo de desenvolvi
 Este repositório documenta e valida a conclusão de todas as etapas teóricas, avaliações de código e projetos propostos pela Alura para a consolidação de conhecimentos no paradigma orientado a objetos.
 
 <p align="center">
-  <img src="assets/Certificados/Certificado_Aplicando Orientacao a Objetos.png" alt="Certificado Alura - Java: aplicando a Orientação a Objetos" width="90%"/>
+  <img src="../../assets/Certificados/Certificado_Aplicando Orientacao a Objetos.png" alt="Certificado Alura - Java: aplicando a Orientação a Objetos" width="90%"/>
 </p>
 
 ---
