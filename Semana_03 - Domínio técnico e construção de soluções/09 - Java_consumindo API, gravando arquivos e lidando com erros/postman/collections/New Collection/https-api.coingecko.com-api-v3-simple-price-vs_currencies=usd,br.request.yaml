@@ -1,0 +1,12 @@
+$kind: http-request
+name: https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd,brl&ids=bitcoin,ethereum,solana&x_cg_demo_api_key=CG-EykwSrCfLaWwstz77BsqJGhC
+url: https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd,brl&ids=bitcoin,ethereum,solana&x_cg_demo_api_key=CG-EykwSrCfLaWwstz77BsqJGhC
+method: GET
+queryParams:
+  - key: vs_currencies
+    value: usd,brl
+  - key: ids
+    value: bitcoin,ethereum,solana
+  - key: x_cg_demo_api_key
+    value: CG-EykwSrCfLaWwstz77BsqJGhC
+order: 1782412661056
