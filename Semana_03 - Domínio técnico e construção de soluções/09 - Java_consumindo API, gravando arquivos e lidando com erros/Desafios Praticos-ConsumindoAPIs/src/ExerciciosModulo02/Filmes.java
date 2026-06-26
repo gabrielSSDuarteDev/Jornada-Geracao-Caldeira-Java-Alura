@@ -11,29 +11,27 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Scanner;
 
-public class Usuario {
+public class Filmes {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        Scanner sc =  new Scanner(System.in);
-        System.out.println("Digite o numero do ID do Usuário:  " );
-        int id = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite o nome do filme para ver as informações: ");
+        var nome = sc.nextLine();
 
-        String endereco = "https://jsonplaceholder.typicode.com/users/" + id;
+
+        String endereco = "https://www.omdbapi.com/?t=" + nome + "&apikey=e9080fa4";
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(endereco))
                 .build();
-        HttpResponse<String> response = client
+        HttpResponse response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
 
-        Gson gson = new Gson();
-        UsuarioDTO usuario = gson.fromJson(response.body(), UsuarioDTO.class);
-        System.out.println(usuario);
-
-        Gson gson2 = new GsonBuilder()
+        Gson gson = new GsonBuilder()
                 .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
                 .setPrettyPrinting()
                 .create();
-
+        FilmesOMDB filmes = gson.fromJson(response.body().toString(), FilmesOMDB.class);
+        System.out.println(filmes);
     }
 }
