@@ -1,9 +1,16 @@
 package br.com.alura.screenmatch;
 
+import br.com.alura.screenmatch.model.DadosEpisode;
+import br.com.alura.screenmatch.model.DadosSerie;
+import br.com.alura.screenmatch.model.DadosTemporada;
 import br.com.alura.screenmatch.service.ConsumoAPI;
+import br.com.alura.screenmatch.service.ConverteDados;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @SpringBootApplication
 public class ScreenmatchApplication implements CommandLineRunner {
@@ -15,11 +22,29 @@ public class ScreenmatchApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		ConsumoAPI ombdAPI = new ConsumoAPI();
-		var url= "https://www.omdbapi.com/?t=Rick+and+Morty&Season=1&apikey=e9080fa4";
+		var url = "https://www.omdbapi.com/?t=Rick+and+Morty&apikey=e9080fa4";
 		var saida = ombdAPI.obterDadosSeries(url);
 		System.out.println(saida);
-		url= "https://coffee.alexflipnote.dev/random.json";
+
+		ConverteDados converteDados = new ConverteDados();
+		DadosSerie dados = converteDados.obterDados(saida,DadosSerie.class);
+		System.out.println(dados);
+
+		url = "https://www.omdbapi.com/?t=Rick+and+Morty&Season=1&episode=3&apikey=e9080fa4";
 		saida = ombdAPI.obterDadosSeries(url);
-		System.out.println(saida);
+		DadosEpisode dadosEpisodio = converteDados.obterDados(saida,DadosEpisode.class);
+		System.out.println(dadosEpisodio);
+
+		List<DadosTemporada> temporadas = new ArrayList<>();
+
+
+		for(int i = 1; i <= dados.totalTemporada(); i++) {
+			url = "https://www.omdbapi.com/?t=Rick+and+Morty&Season=" + i +"apikey=e9080fa4";
+			saida = ombdAPI.obterDadosSeries(url);
+			DadosTemporada dadosTemporada = converteDados.obterDados(saida,DadosTemporada.class);
+			temporadas.add(dadosTemporada);
+		}
+		System.out.println(temporadas);
+
 	}
 }
