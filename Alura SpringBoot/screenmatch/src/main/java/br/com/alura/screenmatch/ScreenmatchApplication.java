@@ -21,30 +21,33 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		ConsumoAPI ombdAPI = new ConsumoAPI();
-		var url = "https://www.omdbapi.com/?t=Rick+and+Morty&apikey=e9080fa4";
-		var saida = ombdAPI.obterDadosSeries(url);
-		System.out.println(saida.toLowerCase());
 
+		ConsumoAPI ombdAPI = new ConsumoAPI();
+		var url = "https://www.omdbapi.com/?t=The+Flash&apikey=e9080fa4";
+		var saida = ombdAPI.obterDadosSeries(url);
+		//System.out.println(saida);
+
+		//Dados Serie
 		ConverteDados converteDados = new ConverteDados();
 		DadosSerie dados = converteDados.obterDados(saida,DadosSerie.class);
 		System.out.println(dados);
 
-		url = "https://www.omdbapi.com/?t=Rick+and+Morty&Season=1&episode=3&apikey=e9080fa4";
+		//Dados Episodio
+		url = "https://www.omdbapi.com/?t=The+Flash&Season=1&episode=1&apikey=e9080fa4";
 		saida = ombdAPI.obterDadosSeries(url);
 		DadosEpisode dadosEpisodio = converteDados.obterDados(saida,DadosEpisode.class);
 		System.out.println(dadosEpisodio);
 
+
+		//Dados Temporada
 		List<DadosTemporada> temporadas = new ArrayList<>();
-
-
 		for(int i = 1; i <= dados.totalTemporada(); i++) {
-			url = "https://www.omdbapi.com/?t=Rick+and+Morty&Season=" + i +"apikey=e9080fa4";
+			url = "https://www.omdbapi.com/?t=The+Flash&Season="+ i +"&apikey=e9080fa4";
 			saida = ombdAPI.obterDadosSeries(url);
 			DadosTemporada dadosTemporada = converteDados.obterDados(saida,DadosTemporada.class);
 			temporadas.add(dadosTemporada);
 		}
-		System.out.println(temporadas);
+		temporadas.forEach(System.out::println);
 
 	}
 }
