@@ -24,7 +24,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		ConsumoAPI ombdAPI = new ConsumoAPI();
 		var url = "https://www.omdbapi.com/?t=Rick+and+Morty&apikey=e9080fa4";
 		var saida = ombdAPI.obterDadosSeries(url);
-		System.out.println(saida);
+		System.out.println(saida.toLowerCase());
 
 		ConverteDados converteDados = new ConverteDados();
 		DadosSerie dados = converteDados.obterDados(saida,DadosSerie.class);
